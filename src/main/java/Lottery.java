@@ -1,7 +1,7 @@
 import java.util.Random;
 
 public class Lottery {
-    private final int[] items = new int[]{10, 20, 30, 40, 50, 60, 70, 80, 90, 100};
+    private final int[] items = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
     private final Random random = new Random();
 
     private int chooseRandom() {

@@ -1,10 +1,8 @@
-import java.io.IOException;
-
 public class Main {
-    public static void main(String[] args) throws IOException {
-        ToysAdmin test = new ToysAdmin();
-        test.importCSVtoArray();
-        test.addToyFinal();
-
+    public static void main(String[] args) {
+        ToysAdmin admin = new ToysAdmin();
+        admin.importCSVtoArray();
+        admin.addToyFinal();
+        admin.run();
     }
 }
